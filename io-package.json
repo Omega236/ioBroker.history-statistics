@@ -1,0 +1,98 @@
+{
+    "common": {
+        "name": "history-statistics",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "History Statistics",
+        "titleLang": {
+            "en": "History Statistics",
+            "de": "History Statistics",
+            "ru": "История статистики",
+            "pt": "Estatísticas da História",
+            "nl": "Geschiedenis Statistieken",
+            "fr": "Histoire Statistiques",
+            "it": "Statistiche della storia",
+            "es": "Estadísticas de Historia",
+            "pl": "Historia statystyk",
+            "zh-cn": "历史统计"
+        },
+        "desc": {
+            "en": "Calculates values such as Min / Max, Differzent, number of changes over a defined period of time using the history adapters.",
+            "de": "Berechnet mit den History-Adaptern Werte wie Min / Max, Differzent und die Anzahl der Änderungen über einen definierten Zeitraum.",
+            "ru": "Вычисляет значения, такие как Min / Max, Differzent, количество изменений за определенный период времени, используя адаптеры истории.",
+            "pt": "Calcula valores como Min / Max, Differzent, número de alterações durante um período de tempo definido usando os adaptadores de histórico.",
+            "nl": "Berekent waarden zoals Min / Max, Differzent, aantal wijzigingen gedurende een gedefinieerde tijdsperiode met behulp van de geschiedenisadapters.",
+            "fr": "Calcule des valeurs telles que Min / Max, Differzent, nombre de modifications sur une période définie à l'aide des adaptateurs d'historique.",
+            "it": "Calcola valori come Min / Max, Differzent, numero di modifiche in un determinato periodo di tempo utilizzando gli adattatori della cronologia.",
+            "es": "Calcula valores como Min / Max, Differzent, número de cambios durante un período de tiempo definido utilizando los adaptadores de historial.",
+            "pl": "Oblicza wartości takie jak Min / Max, Differzent, liczba zmian w określonym okresie czasu za pomocą adapterów historii.",
+            "zh-cn": "使用历史记录适配器计算诸如Min / Max，Differzent，定义时间段内的更改数量等值。"
+        },
+        "authors": [
+            "Omega236 <general.of.omega@googlemail.com>"
+        ],
+        "keywords": [
+            "History",
+            "Analyse",
+            "counter"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "history-statistics.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/Omega236/ioBroker.history-statistics/master/admin/history-statistics.png",
+        "readme": "https://github.com/Omega236/ioBroker.history-statistics/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "schedule",
+        "type": "storage",
+        "compact": true,
+        "materialize": true,
+        "materializeTab": true,
+        "adminTab": {
+            "singleton": true,
+            "name": {
+                "en": "History Statistics",
+                "de": "History Statistics",
+                "ru": "История статистики",
+                "pt": "Estatísticas da História",
+                "nl": "Geschiedenis Statistieken",
+                "fr": "Histoire Statistiques",
+                "it": "Statistiche della storia",
+                "es": "Estadísticas de Historia",
+                "pl": "Historia statystyk",
+                "zh-cn": "历史统计"
+            },
+            "link": "",
+            "fa-icon": "info"
+        },
+        "supportCustoms": true,
+        "dependencies": [
+            {
+                "admin": ">=3.0.0"
+            },
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
